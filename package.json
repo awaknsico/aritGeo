@@ -1,0 +1,30 @@
+{
+  "name": "aritgeo",
+  "version": "1.0.0",
+  "description": "Arit Geo Function",
+  "main": "src/main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awaknsico/aritGeo.git"
+  },
+  "keywords": [
+    "Function",
+    "AritGeo"
+  ],
+  "author": "Awak Nsico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awaknsico/aritGeo/issues"
+  },
+  "homepage": "https://github.com/awaknsico/aritGeo#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
