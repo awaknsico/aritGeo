@@ -19,7 +19,7 @@ module.exports ={
 			//Handling Arithmetic Progression
 			while(isArit && list[i] != undefined){
 
-				if(list[i]-init == quot){
+				if(list[i] - init == quot){
 					init = list[i];
 					i++;
 				}
@@ -34,7 +34,7 @@ module.exports ={
 			//Handling Geometric Progression
 			while(isGeo && list[i] != undefined){
 
-				if(list[i]/init == rate){
+				if(list[i] / init == rate){
 					init = list[i]
 				}
 
